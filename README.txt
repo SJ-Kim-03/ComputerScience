@@ -56,9 +56,9 @@ Chapter 01~02. GUI, 버전 관리
 
 소스트리 설치
 - Git 사용 도와주는 GUI
-
-VScode, github
-
+- Create: = git init 초기화 명령어 
+- Add: 로컬 저장소를 소스트리에 추가
+- .git 폴더에는 버전 관리한 데이터와 원격 저장소 주소 등 정보 저장
 
 
 
