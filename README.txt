@@ -18,4 +18,10 @@ git commit -m
 git log
 - 커밋 확인 가능, 최신순
 
-git checkout
+git checkout 7자리
+- 이전 커밋으로 되돌아가기
+- 7자리 대신 - 사용시 최신 커밋으로 복원
+- 최근 switch, restore 명령어로 나뉘어짐
+- switch: 브랜치 간 이동
+- restore: 파일 복구
+- checkout은 실무에서 사용하지 않음
