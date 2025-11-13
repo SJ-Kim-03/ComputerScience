@@ -43,3 +43,5 @@ git push origin main
 - CLI, 코드트리 환경에서는 master 브랜치 생성, 변경 가능
 - name, token 입력
 
+- test
+
