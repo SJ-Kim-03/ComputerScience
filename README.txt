@@ -14,3 +14,8 @@ git add file
 
 git commit -m
 - 커밋의 상세 설명 추가
+
+git log
+- 커밋 확인 가능, 최신순
+
+git checkout
