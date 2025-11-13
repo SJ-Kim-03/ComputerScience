@@ -1,5 +1,7 @@
 Road to Developer.
 
+Chapter 00. git 기본
+
 git init
 - .git 폴더: local repository 생성
 - 초기화 과정
@@ -49,4 +51,21 @@ git clone 원격 저장소 주소 .
 
 git pull origin main
 - 다른 로컬 저장소에서 최신본 가져오기
+
+Chapter 01~02. GUI, 버전 관리
+
+소스트리 설치
+- Git 사용 도와주는 GUI
+
+VScode, github
+
+
+
+
+
+
+
+
+
+
 
