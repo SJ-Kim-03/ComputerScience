@@ -43,6 +43,10 @@ git push origin main
 - CLI, 코드트리 환경에서는 master 브랜치 생성, 변경 가능
 - name, token 입력
 
+git clone 원격 저장소 주소 .
+- 로컬 저장소에 내려받기
+- 띄우고 마침표 하지 않으면 리포지토리 이름 폴더가 생성됨
+
 git pull origin main
 - 다른 로컬 저장소에서 최신본 가져오기
 
