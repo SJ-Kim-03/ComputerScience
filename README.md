@@ -15,7 +15,7 @@
 
 ### git add file
 
-- 버전으로 만들 파일 선택
+- 버전으로 만들 파일(변경할 사항) 선택
 
 ### git commit -m
 
@@ -72,3 +72,27 @@
 - Create: = git init 초기화 명령어
 - Add: 로컬 저장소를 소스트리에 추가
 - .git 폴더에는 버전 관리한 데이터와 원격 저장소 주소 등 정보 저장
+
+### SubVersion(SVN)과 Git의 차이
+
+- SVN: 델타(Delta) 방식, 차이점만 저장, 많은 계산 필요
+- Git: 스냅샷(Snapshot) 방식, 전체 저장, 바로 앞 커밋과 비교연산 1회
+
+### Git으로 관리하는 파일의 네 가지 상태
+
+- ** 추적 안됨(untracked)**: git init, 초기화, 파일 생성
+- ** 스테이지됨(staged)**: git add 파일명, 파일 스테이지에 올리기
+- ** 수정 없음(unmodified)**: git commit -m "message", 스냅샷(버전) 생성
+- 원격 저장소 업로드: git push origin main
+- ** 수정함(modified)**: 파일 수정 or 생성한 경우, 수정 없음(unmodified)일 경우 스테이징 불가
+- 변경사항 add, commit, push를 통해 버전 관리
+
+## Chapter 03. 협업하기
+
+### 브랜치
+
+- commit 1 --- 2 --- 3 ..., 브랜치는 commit을 **'가리킨다'**
+- 하나의 커밋을 여러 브랜치가 가리킬 수 있다.
+- 분기 시 브랜치는 포인터(pointer) 역할을 하게 된다.
+- **HEAD**라는 특수한 포인터 사용, 브랜치를 가리키게 하여 커밋 상태를 볼 수 있게 함
+- HEAD 포인터가 과거 커밋을 가리킬 경우, 분리된(Detached) HEAD라고 표현
