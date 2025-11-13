@@ -80,11 +80,11 @@
 
 ### Git으로 관리하는 파일의 네 가지 상태
 
-- ** 추적 안됨(untracked)**: git init, 초기화, 파일 생성
-- ** 스테이지됨(staged)**: git add 파일명, 파일 스테이지에 올리기
-- ** 수정 없음(unmodified)**: git commit -m "message", 스냅샷(버전) 생성
+- **추적 안됨(untracked)**: git init, 초기화, 파일 생성
+- **스테이지됨(staged)**: git add 파일명, 파일 스테이지에 올리기
+- **수정 없음(unmodified)**: git commit -m "message", 스냅샷(버전) 생성
 - 원격 저장소 업로드: git push origin main
-- ** 수정함(modified)**: 파일 수정 or 생성한 경우, 수정 없음(unmodified)일 경우 스테이징 불가
+- **수정함(modified)**: 파일 수정 or 생성한 경우, 수정 없음(unmodified)일 경우 스테이징 불가
 - 변경사항 add, commit, push를 통해 버전 관리
 
 ## Chapter 03. 협업하기
@@ -96,3 +96,10 @@
 - 분기 시 브랜치는 포인터(pointer) 역할을 하게 된다.
 - **HEAD**라는 특수한 포인터 사용, 브랜치를 가리키게 하여 커밋 상태를 볼 수 있게 함
 - HEAD 포인터가 과거 커밋을 가리킬 경우, 분리된(Detached) HEAD라고 표현
+- 보통 개발 브랜치는 한 사람만 작업
+
+### 브랜치 만들고, 이동하기
+
+- 브랜치 생성 > 대상 브랜치로 이동 > 커밋 > 합치기
+- 보통 브랜치 규칙을 정함 (main 직접 커밋X, main 기준 새 브랜치 생성, 브랜치명 규칙, 합치는 시점 등)
+- 소스트리에서는 브랜치명을 '/'로 구분하여 앞 텍스트를 폴더처럼 구분
