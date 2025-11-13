@@ -43,5 +43,6 @@ git push origin main
 - CLI, 코드트리 환경에서는 master 브랜치 생성, 변경 가능
 - name, token 입력
 
-- test
+git pull origin main
+- 다른 로컬 저장소에서 최신본 가져오기
 
