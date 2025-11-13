@@ -25,3 +25,21 @@ git checkout 7자리
 - switch: 브랜치 간 이동
 - restore: 파일 복구
 - checkout은 실무에서 사용하지 않음
+
+Repository 생성
+- 주소: https://github.com/SJ-Kim-03/ComputerScience.git
+
+git remote and origin 주소
+- 원격 저장소 주소 입력
+- origin: 원격 저장소
+
+git branch -M name of branch
+- 저장될 branch 생성
+
+git push origin main
+- 원격 저장소의 branch에 업로드
+- origin의 main이라는 branch로 올려라
+- github에서 repository 생성 시 main 브랜치 생성이 default
+- CLI, 코드트리 환경에서는 master 브랜치 생성, 변경 가능
+- name, token 입력
+
